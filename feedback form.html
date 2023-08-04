@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+
+    <!-- BOOTSTRAP CDN Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap
+/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFc
+JlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/
+GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd
+/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/
+ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/
+bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/
+JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/
+css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="feedbackform.css">
+
+</head>
+<head>
+    <style>
+		/* Create a New CSS File */
+body {
+    font-family: 'Candara', serif;
+    background: white;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, royal skyblue, pink);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, skyblue, pink);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.h1-tag{
+    text-align: center;
+    margin-top: 4%;
+}
+.form-content-section{
+    width: 50%;
+    margin-top: 3%;
+    margin-right: 35%;
+}
+@media screen and (max-width: 600px){
+    .form-content-section{
+        width: 100%;
+        margin-top: 40%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .form-content-section{
+        width: 100%;
+        margin-top: 40%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .form-group{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .btn-primary{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 800px){
+    .form-group{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .btn-primary{
+        margin-left: 20px;
+    }
+}
+.myclass{
+    border-radius: 30px;
+}
+  </style>
+
+   
+  
+  <head>
+<body>
+
+    <section id="form-section">
+        <h1 class="h1-tag">Feedback Form</h1>
+        <h2 class="h2-tag">Please Fill The Form And Help Me To Improve My Website</h2>
+        <form class="form-content-section">
+            <div class="form-group">
+                <label for="exampleInputText">First Name: </label>
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter Your Name">
+<br>
+<br>
+<label for="exampleInputText">Last Name: </label>
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter Your Name">
+             
+             </div>
+             <br>
+            <div class="form-group">
+                <label for="exampleInputEmail1">GENDER: </label>
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter your gender">
+            </div>
+
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleInputEmail1">EMAIL ID: </label>
+                <input type="email" class="form-control" 
+id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter your email id">
+                <small id="emailHelp" class="form-text text-muted"></small>
+            </div>
+            
+            <div class="form-group">
+                <br>
+                <label for="exampleInputText">FB ID(optional): </label>
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter Your fb id">
+<br>
+<br>
+<label for="exampleInputText">INSTAGRAM ID(optional): </label>
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter Your instagram id">
+          
+          <div class="form-group">
+            <br>
+            <br>
+                <label for="exampleInputText">STATE: </label>
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter Your state">
+<br>
+<br>
+<label for="exampleInputText">DISTRICT: </label>
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter Your district">
+          
+          
+          
+            <div class="form-group">
+                <br>
+                <label for="exampleInputText">Contact Number: </label>
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter Your phone number">
+
+            
+            
+            </div>
+            <div class="form-group">
+                <br>
+                <label for="exampleInputEmail1">ADDRESS(optional): </label>
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter your address">
+            </div>
+            
+                     <br>
+                     <label for="">◉Your overall experience with us:-</label>
+         <div id="radio">
+<input type="checkbox" name="sys" id="">Excellent <br>
+         <input type="checkbox" name="sys" id="">Very Good<br>
+         <input type="checkbox" name="" id="">Good <br>
+         <input type="checkbox" name="" id="">Average <br>
+         <input type="checkbox" name="" id="">Poor <br>
+         </div>
+                  <br>
+                  <label for="">◉Things that you liked:-</label>
+         <div id="radio">
+<input type="checkbox" name="sys" id="">Enhanced Gaming Experience <br>
+         <input type="checkbox" name="sys" id="">Providing More Games<br>
+         <input type="checkbox" name="" id="">space ship combact game <br>
+         <input type="checkbox" name="" id="">Graphics quality <br>
+         </div>
+<div class="form-group">
+                <br>
+                <label for="comments:-">Comments:
+</label>
+                <textarea class="form-control" id="comments:-" rows="3" style="margin: 0px; width:671px; height: 150px;"> Enter your comments here...</textarea></textarea>
+            </div>
+    <button name="submit" value="Submit">Submit</button>  
+        <button name="submit" value="Submit">Reset</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
+
+
